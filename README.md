@@ -13,7 +13,9 @@
 
 ### 1.1.1 Create a project with JEST
 
-Create a folder `jest-js/` inside `/examples/`
+Create a folder `jest-js/` inside `/example-projects/`
+
+Run:
 
 ```
 cd examples/jest-js
@@ -22,6 +24,14 @@ cd examples/jest-js
 ```
 npm init -y
 ```
+
+create a file `.gitignore` inside `/example-projects/jest-js` with this content:
+
+```
+/node_modules
+```
+
+Run:
 
 ```
 npm install --save-dev jest
