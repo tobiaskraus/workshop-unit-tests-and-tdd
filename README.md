@@ -5,7 +5,6 @@
 1. Theory (see Miro board)
 1. How to setup / integrate tests
     1. Plain JS
-    1. Plain TS
     1. Create-react-app
         - `npx create-react-app {name-of-project}`
 
@@ -18,7 +17,7 @@ Create a folder `jest-js/` inside `/example-projects/`
 Run:
 
 ```
-cd examples/jest-js
+cd example-projects/jest-js
 ```
 
 ```
@@ -47,7 +46,7 @@ Add the following section to your package.json:
 }
 ```
 
-Create a folder `src/` inside `/examples/jest-js`
+Create a folder `src/` inside `/example-projects/jest-js`
 
 ...
 
@@ -94,7 +93,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 Now you!
 
--   create a file `validate-serialnumber.test.js` inside `/examples/jest-js/src/`
+-   create a file `validate-serialnumber.test.js` inside `/example-projects/jest-js/src/`
 -   write one or more tests of your validation function (which doesn't exist yet)
 -   run `npm run test`
     -   it runs until you stop it and watches for code changes
